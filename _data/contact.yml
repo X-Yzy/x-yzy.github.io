@@ -1,0 +1,9 @@
+# 左下角联系方式
+- type: github
+  icon: "fab fa-github"
+- type: email
+  icon: "fas fa-envelope"
+  noblank: true
+- type: rss
+  icon: "fas fa-rss"
+  noblank: true
