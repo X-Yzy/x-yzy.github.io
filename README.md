@@ -1,102 +1,21 @@
-# Chirpy 博客｜上传发布版
+# X_Y 的安全笔记
 
-此压缩包用于上传到 **GitHub Pages 仓库**。它只包含发布需要的源码、文章和 GitHub Actions，不包含本地预览脚本、草稿目录和本地缓存。
+基于 Jekyll 构建的个人技术博客，主要记录环境搭建、安全研究、问题排查和学习复盘。
 
-## 个人信息
+## 目录
 
-本站当前配置：
+- `_posts`：博客文章
+- `_tabs`：导航页面
+- `assets`：图片等静态资源
+- `_config.yml`：站点配置
 
-- GitHub 用户名：`X-Yzy`
-- 显示名称：`X_Y`
-- 邮箱：`3130796131@qq.com`
+## 本地运行
 
-对应站点配置：
+需要 Ruby 和 Bundler：
 
-```yaml
-title: X_Y 的安全笔记
-url: "https://x-yzy.github.io"
-
-github:
-  username: X-Yzy
+```console
+bundle install
+bundle exec jekyll serve
 ```
 
-头像文件为：
-
-```text
-assets/avatar.png
-```
-
-可以替换为自己的头像，然后修改 `_config.yml` 中的 `avatar`。
-
-## 创建 GitHub Pages 仓库
-
-仓库名称必须是：
-
-```text
-X-Yzy.github.io
-```
-
-仓库建议设置为 `Public`。
-
-## 手动上传
-
-在 GitHub 仓库页面点击：
-
-```text
-Add file → Upload files
-```
-
-将本压缩包解压后的**所有文件和隐藏目录**上传到仓库根目录，包括：
-
-```text
-.github
-_config.yml
-_posts
-_tabs
-assets
-Gemfile
-```
-
-不要只上传压缩包本身。
-
-## 启用 GitHub Pages
-
-进入：
-
-```text
-Settings → Pages → Build and deployment → Source → GitHub Actions
-```
-
-再到 `Actions` 页面查看构建。成功后访问：
-
-```text
-https://x-yzy.github.io
-```
-
-## 写文章
-
-文章放入 `_posts`，文件名格式：
-
-```text
-2026-07-21-article-name.md
-```
-
-文章示例：
-
-```yaml
----
-title: Docker 环境搭建记录
-date: 2026-07-21 20:00:00 +0800
-categories: [环境搭建, Docker]
-tags: [Docker, Linux]
-description: 记录 Docker 环境的安装过程。
----
-```
-
-主分类已经预设为：环境搭建、Web安全、内网渗透、免杀钓鱼、随笔。
-
-## 普通 Nginx/宝塔服务器说明
-
-这个包是 **Jekyll 源码包**，适合 GitHub Pages 或具备 Ruby/Jekyll 构建环境的服务器。普通 Nginx 静态站点不能直接解析这些源码。
-
-若要上传普通服务器，请使用“本地预览版”中的 `构建静态站点.bat` 或 `scripts/build-static.sh`，然后只上传生成的 `_site` 目录内容。
+推送到主分支后，GitHub Actions 会自动构建并发布站点。
