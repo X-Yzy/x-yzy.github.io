@@ -11,6 +11,10 @@
 {%- endif -%}
 ';
 
+.site-subtitle {
+  white-space: pre-line;
+}
+
 .post-tail-wrapper {
   display: grid;
   grid-template-columns: minmax(0, 1fr) auto;
