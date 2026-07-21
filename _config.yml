@@ -14,7 +14,7 @@ timezone: Asia/Shanghai
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: YOUR_NAME 的安全笔记 # 网站主标题
+title: X_Y 的安全笔记 # 网站主标题
 
 tagline: 记录环境搭建、安全研究与学习复盘 # 侧边栏副标题
 
@@ -23,10 +23,10 @@ description: >- # used by seo meta and the atom feed
 
 # Fill in the protocol & hostname for your site.
 # E.g. 'https://username.github.io', note that it does not end with a '/'.
-url: "https://YOUR_GITHUB_USERNAME.github.io"
+url: "https://X_Y.github.io"
 
 github:
-  username: YOUR_GITHUB_USERNAME # 修改为 GitHub 用户名
+  username: X_Y # 修改为 GitHub 用户名
 
 twitter:
   username:
@@ -34,12 +34,12 @@ twitter:
 social:
   # Change to your full name.
   # It will be displayed as the default author of the posts and the copyright owner in the Footer
-  name: YOUR_NAME
-  email: YOUR_EMAIL@example.com # 修改为你的邮箱
+  name: X_Y
+  email: 3130796131@qq.com # 修改为你的邮箱
   fediverse_handle: # fill in your fediverse handle. E.g. "@username@domain.com"
   links:
     # The first element serves as the copyright owner's link
-    - https://github.com/YOUR_GITHUB_USERNAME
+    - https://github.com/X_Y
     # Uncomment below to add more social links
     # - https://www.facebook.com/username
     # - https://www.linkedin.com/in/username
@@ -160,7 +160,7 @@ pwa:
 paginate: 10
 
 # The base URL of your site
-baseurl: "https://YOUR_GITHUB_USERNAME.github.io"
+baseurl: "https://X_Y.github.io"
 
 # ------------ The following options are not recommended to be modified ------------------
 
