@@ -40,6 +40,16 @@
   display: none;
 }
 
+.categories .category-level-3 {
+  padding-left: 3.75rem;
+}
+
+.category-branch {
+  display: inline-block;
+  width: 1.25rem;
+  color: var(--text-muted-color);
+}
+
 @media (max-width: 576px) {
   .post-tail-wrapper {
     grid-template-columns: minmax(0, 1fr);
@@ -52,5 +62,9 @@
   .post-tail-bottom {
     justify-self: end;
     margin-top: 0.75rem !important;
+  }
+
+  .categories .category-level-3 {
+    padding-left: 2.75rem;
   }
 }
