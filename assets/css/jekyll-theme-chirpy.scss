@@ -11,14 +11,46 @@
 {%- endif -%}
 ';
 
+.post-tail-wrapper {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  grid-template-areas:
+    'categories share'
+    'tags share';
+  column-gap: 1.5rem;
+  align-items: end;
+}
+
 .post-tail-wrapper > .d-flex:first-child {
-  margin-top: 3rem;
+  grid-area: categories;
+  margin-bottom: 0.25rem !important;
+}
+
+.post-tail-wrapper > .post-tags {
+  grid-area: tags;
 }
 
 .post-tail-bottom {
+  grid-area: share;
   margin-top: 0 !important;
+  align-self: end;
 }
 
 .license-wrapper:empty {
   display: none;
+}
+
+@media (max-width: 576px) {
+  .post-tail-wrapper {
+    grid-template-columns: minmax(0, 1fr);
+    grid-template-areas:
+      'categories'
+      'tags'
+      'share';
+  }
+
+  .post-tail-bottom {
+    justify-self: end;
+    margin-top: 0.75rem !important;
+  }
 }
