@@ -24,9 +24,9 @@ toc: true
 paginate: 10
 
 pwa:
-  enabled: true
+  enabled: false
   cache:
-    enabled: true
+    enabled: false
 
 kramdown:
   footnote_backlink: "&#8617;&#xfe0e;"
