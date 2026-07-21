@@ -2,43 +2,43 @@
 
 此压缩包用于上传到 **GitHub Pages 仓库**。它只包含发布需要的源码、文章和 GitHub Actions，不包含本地预览脚本、草稿目录和本地缓存。
 
-## 一、先修改个人信息
+## 个人信息
 
-打开 `_config.yml`，替换以下占位符：
+本站当前配置：
 
-- `YOUR_GITHUB_USERNAME`：GitHub 用户名
-- `YOUR_NAME`：显示名称
-- `YOUR_EMAIL@example.com`：邮箱
+- GitHub 用户名：`X-Yzy`
+- 显示名称：`X_Y`
+- 邮箱：`3130796131@qq.com`
 
-重点确认：
+对应站点配置：
 
 ```yaml
-title: YOUR_NAME 的安全笔记
-url: "https://YOUR_GITHUB_USERNAME.github.io"
+title: X_Y 的安全笔记
+url: "https://x-yzy.github.io"
 
 github:
-  username: YOUR_GITHUB_USERNAME
+  username: X-Yzy
 ```
 
 头像文件为：
 
 ```text
-assets/img/avatar.svg
+assets/avatar.png
 ```
 
 可以替换为自己的头像，然后修改 `_config.yml` 中的 `avatar`。
 
-## 二、创建 GitHub Pages 仓库
+## 创建 GitHub Pages 仓库
 
 仓库名称必须是：
 
 ```text
-你的GitHub用户名.github.io
+X-Yzy.github.io
 ```
 
 仓库建议设置为 `Public`。
 
-## 三、手动上传
+## 手动上传
 
 在 GitHub 仓库页面点击：
 
@@ -59,7 +59,7 @@ Gemfile
 
 不要只上传压缩包本身。
 
-## 四、启用 GitHub Pages
+## 启用 GitHub Pages
 
 进入：
 
@@ -70,10 +70,10 @@ Settings → Pages → Build and deployment → Source → GitHub Actions
 再到 `Actions` 页面查看构建。成功后访问：
 
 ```text
-https://你的GitHub用户名.github.io
+https://x-yzy.github.io
 ```
 
-## 五、写文章
+## 写文章
 
 文章放入 `_posts`，文件名格式：
 

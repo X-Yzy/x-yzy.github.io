@@ -5,7 +5,7 @@ order: 4
 
 # 关于我
 
-你好，我是 **YOUR_NAME**。
+你好，我是 **X_Y**。
 
 这里用于整理技术学习笔记、实验环境记录和安全研究复盘。文章尽量保留完整的环境、原因、验证过程和解决办法，方便未来查阅。
 
@@ -23,5 +23,5 @@ order: 4
 
 ## 联系方式
 
-- GitHub：<https://github.com/YOUR_GITHUB_USERNAME>
-- Email：YOUR_EMAIL@example.com
+- GitHub：<https://github.com/X-Yzy>
+- Email：[3130796131@qq.com](mailto:3130796131@qq.com)
