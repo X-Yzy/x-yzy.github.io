@@ -1,5 +1,13 @@
 Jekyll::Hooks.register :site, :post_read do |site|
-  license = site.data.dig('locales', site.config['lang'], 'copyright', 'license')
+  locales = site.data['locales']
+  locale = locales[site.config['lang']]
+  english = locales['en']
+
+  %w[layout tabs search panel theme post categories].each do |section|
+    locale[section] = english[section] if english[section]
+  end
+
+  license = locale.dig('copyright', 'license')
   license.delete('template') if license
 end
 

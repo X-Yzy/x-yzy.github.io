@@ -5,7 +5,7 @@ timezone: Asia/Shanghai
 
 title: X_Y’s Blog
 tagline: 记录安全研究与学习复盘
-description: 记录Web 安全、内网安全、钓鱼免杀，以及日常学习随笔。
+description: 记录 Web 安全、内网安全、钓鱼免杀，以及日常学习随笔。
 
 url: "https://x-yzy.github.io"
 baseurl: ""

@@ -3,7 +3,6 @@
 .jekyll-metadata
 _site/
 vendor/
-Gemfile.lock
 .idea/
 .vscode/
 .DS_Store
