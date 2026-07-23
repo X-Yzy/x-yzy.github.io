@@ -1,7 +1,7 @@
 ---
 title: Java 反序列化（一）：URLDNS 调用链分析
 date: 2026-07-23 00:00:00 +0800
-categories: [Java安全, 反序列化, URLDNS]
+categories: [Java安全, 反序列化]
 tags: [Java, 反序列化, DNSlog, 代码审计]
 description: 从 HashMap 与 URL 的方法调用关系出发，分析 Java 反序列化过程中触发 DNS 查询的原因及防护思路。
 toc: true
