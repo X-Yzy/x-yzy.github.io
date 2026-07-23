@@ -1,7 +1,7 @@
 ---
 title: Java 反射与动态代理：核心 API 与实现示例
 date: 2026-07-22 15:30:00 +0800
-categories: [Java, 基础机制, 反射与代理]
+categories: [Java安全, 基础机制, 反射与代理]
 tags: [Java, 反射, 动态代理]
 description: 梳理 Java 反射常用 API，并通过完整示例理解 JDK 动态代理的创建方式与调用流程。
 toc: true
